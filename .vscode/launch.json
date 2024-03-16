@@ -1,0 +1,25 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "breaking_bad_app",
+            "request": "launch",
+            "type": "dart",
+            "program": "lib/presentation/main.dart"
+        },
+        {
+            "name": "breaking_bad_app (profile mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile",
+            "program": "lib/presentation/main.dart"
+        },
+        {
+            "name": "breaking_bad_app (release mode)",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release",
+            "program": "lib/presentation/main.dart"
+        }
+    ]
+}
